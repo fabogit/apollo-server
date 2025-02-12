@@ -1,0 +1,22 @@
+{
+  "author": "fabogit",
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "graphql": "^16.10.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "apollo-server",
+  "scripts": {
+    "compile": "tsc",
+    "start": "pnpm run compile && node ./dist/index.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
